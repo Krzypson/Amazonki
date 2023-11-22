@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%} {% endblock%} - Amazonki</title>
+    {% block styles %} <link rel="stylesheet" href="../static/style.css"> {% endblock styles %}
+</head>
+<body>
+    <nav>
+        <a href="#">Amazonki</a>
+    </nav>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>
